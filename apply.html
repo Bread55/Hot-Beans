@@ -5,25 +5,27 @@
 <title>apply</title>
 </head>
 
-<body>
+<body> 
+
 
 <form action="https://formspree.io/mjnakjym" method="post"></form>
 
 	<fieldset>
 		<legend>contact form</legend>
   First name<br>		 
-		 <input type="text" name="firstname" value="" placeholder="Your name..."><br>
+		 <input type="text" name="firstname" value="" placeholder="Your name..." required><br>
   Last name:<br>
-  <input type="text" name="lastname" value="" placeholder="your last name..."><br>
+  <input type="text" name="lastname" value="" placeholder="your last name..." required><br>
   email:<br>
-  <input type="text"name="_replyto" value="" placeholder="Example@example.com"><br>
+  <input type="text"name="_replyto" value="" placeholder="Example@example.com" required><br>
    phone:<br>
-  <input type="text" name="phone" value="" placeholder="your number..."><br>
+  <input type="text" name="phone" value="" placeholder="your number..." required><br>
   <input type="submit" value="Submit">
 	</fieldset>
 
 
-
+<input id="go" type="button" value="Print this Page" onclick="window.print();"> 
 
 </body>
 </html>
+
