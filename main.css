@@ -1,0 +1,19 @@
+
+avbar ul li {display:inline} 
+
+.navbar a {
+Padding:8xp
+Colour: black; background-color: #CEE1F2
+Font-family:calibri(body);
+Border-style:outset;
+} 
+ 
+ text-decoration:none;
+ width:8em;
+ 
+ .navbar a:hover,
+ .navbar a:active
+ {
+  border-style:inset;
+  color:yellow;
+ } 
